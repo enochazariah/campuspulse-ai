@@ -46,6 +46,31 @@ export function Landing({ onStart }: { onStart: () => void }) {
         </ol>
       </section>
 
+      <section className="wrap section" aria-labelledby="android-title">
+        <h2 id="android-title">Get the Android app</h2>
+        <p>
+          CampusPulse Match also runs as an Android app. It uses the same matching rules and the same opportunity bank as this website, and
+          your answers stay on your phone.
+        </p>
+        <p>
+          <a
+            className="btn btn-primary"
+            href={`${import.meta.env.BASE_URL}downloads/campuspulse-ai.apk`}
+            download="campuspulse-ai.apk"
+          >
+            Download for Android (APK, about 5 MB)
+          </a>
+        </p>
+        <ul className="plain-list">
+          <li>This is a test build for the hackathon, not a Play Store release.</li>
+          <li>
+            Android will ask you to allow installs from your browser or file manager, and Play Protect may show a warning because the app is not
+            from the Play Store. Install it only if you trust this site.
+          </li>
+          <li>The website works the same way if you would rather not install anything.</li>
+        </ul>
+      </section>
+
       <section className="wrap section" aria-labelledby="bank-title">
         <h2 id="bank-title">About the CampusPulse opportunity bank</h2>
         <ul className="plain-list">
