@@ -33,6 +33,12 @@ export function Footer() {
             href="https://mylandingpage-alpha.vercel.app/"
             target="_blank"
             rel="noreferrer"
+            style={{
+              color: "#FFFFFF",
+              fontWeight: 700,
+              textDecoration: "underline",
+              textUnderlineOffset: "4px",
+            }}
           >
             Visit my portfolio
           </a>
