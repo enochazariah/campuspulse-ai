@@ -1,0 +1,448 @@
+{
+  "datasetVersion": "2026-10-12",
+  "note": "Records with verification.status 'primary' or 'secondary' were read at the sourceUrl on checkedOn. Records with status 'demo' are fictional, have no links, and exist only to show the interface. Fit tags (fields, levels, relevantSkills) are curator judgement; requirements come from the source and are marked 'published'.",
+  "opportunities": [
+    {
+      "id": "tef-entrepreneurship-programme",
+      "title": "TEF Entrepreneurship Programme",
+      "organisation": "Tony Elumelu Foundation",
+      "type": "grant",
+      "summary": "Annual programme for African entrepreneurs with a business idea or a business no older than 5 years. TEF's own page describes business training, mentorship and US$5,000 in non-refundable seed capital for those who complete the process.",
+      "fields": {
+        "allowed": "any",
+        "basis": "curated"
+      },
+      "levels": {
+        "allowed": "any",
+        "basis": "curated"
+      },
+      "relevantSkills": [
+        "entrepreneurship",
+        "leadership"
+      ],
+      "unknowns": [
+        "Published rules on TEF's page that this form does not ask about: 18 or older, a business idea or a business no older than 5 years, living in Africa and planning to build the business in Africa, and never having benefited from a previous TEF programme.",
+        "Some third-party pages give a business age of 0-3 years or an upper age limit of 35. TEF's own page says 18 and above and no older than 5 years, so confirm the rules on TEFConnect.",
+        "The 2027 call. TEF's page says the portal opens on 1 January and closes at midnight on 1 March every year, but no 2027 announcement was found, so treat those dates as a pattern, not a confirmed deadline."
+      ],
+      "deadline": {
+        "date": "2026-03-01",
+        "status": "dated",
+        "note": "The 2026 window closed on 1 March 2026. TEF's page says the portal opens every year on 1 January and closes at midnight on 1 March. No 2027 announcement was found."
+      },
+      "sourceUrl": "https://www.tonyelumelufoundation.org/tef-entrepreneurship-programme",
+      "applyUrl": "https://www.tefconnect.com",
+      "verification": {
+        "status": "primary",
+        "checkedOn": "2026-10-12",
+        "note": "The annual application window, the eligibility rules and the US$5,000 non-refundable seed capital were read on TEF's own programme page (last modified 27 February 2026). 2027 dates were not found."
+      }
+    },
+    {
+      "id": "google-summer-of-code",
+      "title": "Google Summer of Code",
+      "organisation": "Google Open Source",
+      "type": "fellowship",
+      "summary": "Contributors complete a coding project with an open-source organisation under the guidance of mentors. Google's FAQ describes it as aimed at new contributors, with a stipend and projects of 8 to 22 weeks.",
+      "fields": {
+        "allowed": [
+          "cs-it"
+        ],
+        "basis": "curated"
+      },
+      "levels": {
+        "allowed": "any",
+        "basis": "curated"
+      },
+      "relevantSkills": [
+        "programming",
+        "open-source",
+        "web"
+      ],
+      "unknowns": [
+        "Published rules in Google's FAQ that this form does not ask about: 18 or older, living in a country not embargoed by the United States, and limited prior open-source experience.",
+        "The 2027 window. Google's timeline page says the dates shift a little each year and shows March as the usual month for contributor applications, but it lists only the 2026 dates."
+      ],
+      "deadline": {
+        "date": "2026-03-31",
+        "status": "dated",
+        "note": "The 2026 contributor application window ran from 16 to 31 March 2026 (deadline 18:00 UTC). The official timeline page does not list 2027 dates."
+      },
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline",
+      "applyUrl": "https://summerofcode.withgoogle.com/",
+      "verification": {
+        "status": "primary",
+        "checkedOn": "2026-10-12",
+        "note": "The 2026 contributor deadline and the yearly pattern were read on Google's official timeline page. Eligibility was read in Google's FAQ. 2027 dates are not published."
+      }
+    },
+    {
+      "id": "mlh-fellowship",
+      "title": "MLH Fellowship",
+      "organisation": "Major League Hacking",
+      "type": "fellowship",
+      "summary": "A 12-week remote programme that MLH calls an internship alternative for aspiring software engineers, run in batches. The track page lists 20 hours a week and an educational stipend on select programmes.",
+      "fields": {
+        "allowed": [
+          "cs-it",
+          "engineering"
+        ],
+        "basis": "curated"
+      },
+      "levels": {
+        "allowed": "any",
+        "basis": "curated"
+      },
+      "requiredSkills": [
+        "programming"
+      ],
+      "relevantSkills": [
+        "programming",
+        "web",
+        "open-source"
+      ],
+      "unknowns": [
+        "Other published rules this form does not ask about: 18 or older, at least 20 hours a week for the full 12 weeks, proficient English, a video-call quality connection, and at least one MLH hackathon or Global Hack Week completed.",
+        "Country rule: you must live in a country not embargoed by the United States. Check the apply page for any other country limits.",
+        "Which batch is open. The only batch listed on the track page was Fall 2026 (14 Sep to 4 Dec 2026), which has already started. MLH says applications close a few weeks before a batch starts, so it may no longer take applications, and no later batch was listed."
+      ],
+      "deadline": {
+        "date": null,
+        "status": "unknown",
+        "note": "MLH says applications are processed on a rolling basis and close a few weeks before each batch starts. The only batch listed (Fall 2026, 14 Sep to 4 Dec 2026) has already started, so no open window is confirmed."
+      },
+      "sourceUrl": "https://fellowship.mlh.com/programs/software-engineering",
+      "applyUrl": "https://fellowship.mlh.com/apply",
+      "verification": {
+        "status": "primary",
+        "checkedOn": "2026-10-12",
+        "note": "The programme, schedule and application process were read on MLH's Software Engineering track page. The eligibility list was read in MLH's help centre (help.mlh.io/en/articles/645889)."
+      }
+    },
+    {
+      "id": "chevening-scholarship",
+      "title": "Chevening Scholarship (UK master's)",
+      "organisation": "Chevening, UK Foreign, Commonwealth and Development Office and partners",
+      "type": "scholarship",
+      "summary": "UK master's scholarship for citizens of Chevening-eligible countries. Applicants need at least two years (2,800 hours) of work experience gained after their undergraduate degree.",
+      "fields": {
+        "allowed": "any",
+        "basis": "curated"
+      },
+      "levels": {
+        "allowed": [
+          "graduate",
+          "postgraduate"
+        ],
+        "basis": "curated"
+      },
+      "minWorkYears": 2,
+      "relevantSkills": [
+        "leadership",
+        "community",
+        "research"
+      ],
+      "unknowns": [
+        "Citizenship of a Chevening-eligible country is required. Third-party guides say Nigeria is eligible, but we did not confirm this on Chevening's own country list.",
+        "Other published rules this form does not ask about: finished your undergraduate studies at least two years before the deadline, a commitment to return home for at least two years after the award, and applications to three eligible UK courses.",
+        "The next application window. No later window was found."
+      ],
+      "deadline": {
+        "date": "2026-10-06",
+        "status": "dated",
+        "note": "Applications for 2027/28 opened on 4 August 2026 and closed on 6 October 2026 at 11:00 UTC (Chevening's application timeline). No later window was found."
+      },
+      "sourceUrl": "https://www.chevening.org/scholarships/eligibility/",
+      "applyUrl": null,
+      "verification": {
+        "status": "primary",
+        "checkedOn": "2026-10-12",
+        "note": "The work-experience rule and other eligibility criteria were read on Chevening's eligibility page. The 2027/28 opening and closing dates were read on Chevening's application timeline page."
+      }
+    },
+    {
+      "id": "commonwealth-masters-scholarship",
+      "title": "Commonwealth Master's Scholarship (UK)",
+      "organisation": "Commonwealth Scholarship Commission in the UK",
+      "type": "scholarship",
+      "summary": "Fully funded one-year taught master's study at a UK university for candidates from eligible low and middle income Commonwealth countries who could not otherwise afford to study in the UK. Nigeria is on the Commission's eligible-country list.",
+      "fields": {
+        "allowed": "any",
+        "basis": "curated"
+      },
+      "levels": {
+        "allowed": [
+          "400",
+          "500",
+          "graduate"
+        ],
+        "basis": "curated"
+      },
+      "relevantSkills": [
+        "research",
+        "leadership",
+        "community"
+      ],
+      "unknowns": [
+        "Nominator route: the Commission does not accept direct applications. You must also apply to a nominator. The Commission's nominating-agencies page lists the Federal Scholarship Board, Abuja (fsb@education.gov.ng) as Nigeria's national nominating agency. Nominators may set earlier closing dates and extra rules, so 20 October may not be your real deadline, and we did not find the agency's own date or rules. Ask the agency directly.",
+        "Published rules this form does not ask about: citizen of, or refugee in, an eligible country and permanently resident there; a first degree of at least upper second class (2:1) by September 2027, or a lower second plus a relevant postgraduate qualification; unable to afford UK study without the scholarship.",
+        "Scope limits: one-year taught master's programmes only. MBAs are not funded, and a second master's is not normally funded."
+      ],
+      "deadline": {
+        "date": "2026-10-20",
+        "status": "dated",
+        "note": "The Commission's closing time for 2027/28 entry is 16:00 BST on Tuesday 20 October 2026. Nominators may set earlier dates."
+      },
+      "sourceUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
+      "applyUrl": "https://portal.csccentralonline.org.uk/application",
+      "verification": {
+        "status": "primary",
+        "checkedOn": "2026-10-12",
+        "note": "The open 2027/28 round, the 20 October closing time, the eligible-country list and the eligibility rules were read on the Commission's own Master's page (last modified 29 September 2026). Nigeria's nominating agency was read on the Commission's nominating-agencies page (last modified 9 September 2026)."
+      }
+    },
+    {
+      "id": "demo-undergrad-merit-award",
+      "title": "Demo: Undergraduate Merit Award",
+      "organisation": "Demo Organisation (fictional)",
+      "type": "scholarship",
+      "summary": "A fictional merit award for first- and second-year students. It exists to show how a scholarship card looks.",
+      "fields": {
+        "allowed": "any",
+        "basis": "curated"
+      },
+      "levels": {
+        "allowed": [
+          "100",
+          "200"
+        ],
+        "basis": "published"
+      },
+      "relevantSkills": [
+        "research",
+        "leadership"
+      ],
+      "unknowns": [
+        "This record is fictional, so there are no real eligibility rules."
+      ],
+      "deadline": {
+        "date": null,
+        "status": "unknown",
+        "note": "Demo record. There is no real deadline."
+      },
+      "sourceUrl": null,
+      "applyUrl": null,
+      "verification": {
+        "status": "demo",
+        "checkedOn": null,
+        "note": "Fictional record for demonstration. Not a real opportunity."
+      }
+    },
+    {
+      "id": "demo-engineering-attachment",
+      "title": "Demo: Engineering and Technology Industrial Attachment",
+      "organisation": "Demo Organisation (fictional)",
+      "type": "internship",
+      "summary": "A fictional industrial attachment for third- and fourth-year engineering and computing students.",
+      "fields": {
+        "allowed": [
+          "engineering",
+          "cs-it"
+        ],
+        "basis": "published"
+      },
+      "levels": {
+        "allowed": [
+          "300",
+          "400"
+        ],
+        "basis": "published"
+      },
+      "relevantSkills": [
+        "programming",
+        "data",
+        "design"
+      ],
+      "unknowns": [
+        "This record is fictional, so there are no real eligibility rules."
+      ],
+      "deadline": {
+        "date": null,
+        "status": "unknown",
+        "note": "Demo record. There is no real deadline."
+      },
+      "sourceUrl": null,
+      "applyUrl": null,
+      "verification": {
+        "status": "demo",
+        "checkedOn": null,
+        "note": "Fictional record for demonstration. Not a real opportunity."
+      }
+    },
+    {
+      "id": "demo-health-hackathon",
+      "title": "Demo: Campus Health Innovation Hackathon",
+      "organisation": "Demo Organisation (fictional)",
+      "type": "hackathon",
+      "summary": "A fictional weekend hackathon about health tools for campus clinics, open to any undergraduate.",
+      "fields": {
+        "allowed": [
+          "health",
+          "cs-it",
+          "engineering"
+        ],
+        "basis": "curated"
+      },
+      "levels": {
+        "allowed": "any",
+        "basis": "curated"
+      },
+      "relevantSkills": [
+        "programming",
+        "design",
+        "community"
+      ],
+      "unknowns": [
+        "This record is fictional, so there are no real eligibility rules."
+      ],
+      "deadline": {
+        "date": null,
+        "status": "unknown",
+        "note": "Demo record. There is no real deadline."
+      },
+      "sourceUrl": null,
+      "applyUrl": null,
+      "verification": {
+        "status": "demo",
+        "checkedOn": null,
+        "note": "Fictional record for demonstration. Not a real opportunity."
+      }
+    },
+    {
+      "id": "demo-policy-fellowship",
+      "title": "Demo: Law and Policy Writing Fellowship",
+      "organisation": "Demo Organisation (fictional)",
+      "type": "fellowship",
+      "summary": "A fictional fellowship where students write policy briefs. Aimed at law and social science students from third year onwards.",
+      "fields": {
+        "allowed": [
+          "law",
+          "social"
+        ],
+        "basis": "curated"
+      },
+      "levels": {
+        "allowed": [
+          "300",
+          "400",
+          "500",
+          "graduate"
+        ],
+        "basis": "curated"
+      },
+      "relevantSkills": [
+        "writing",
+        "research",
+        "leadership"
+      ],
+      "unknowns": [
+        "This record is fictional, so there are no real eligibility rules."
+      ],
+      "deadline": {
+        "date": null,
+        "status": "unknown",
+        "note": "Demo record. There is no real deadline."
+      },
+      "sourceUrl": null,
+      "applyUrl": null,
+      "verification": {
+        "status": "demo",
+        "checkedOn": null,
+        "note": "Fictional record for demonstration. Not a real opportunity."
+      }
+    },
+    {
+      "id": "demo-agri-grant",
+      "title": "Demo: Student Agribusiness Seed Grant",
+      "organisation": "Demo Organisation (fictional)",
+      "type": "grant",
+      "summary": "A fictional small grant for student-led agriculture and agribusiness ideas.",
+      "fields": {
+        "allowed": [
+          "agriculture",
+          "business"
+        ],
+        "basis": "published"
+      },
+      "levels": {
+        "allowed": "any",
+        "basis": "curated"
+      },
+      "relevantSkills": [
+        "entrepreneurship",
+        "community"
+      ],
+      "unknowns": [
+        "This record is fictional, so there are no real eligibility rules."
+      ],
+      "deadline": {
+        "date": null,
+        "status": "unknown",
+        "note": "Demo record. There is no real deadline."
+      },
+      "sourceUrl": null,
+      "applyUrl": null,
+      "verification": {
+        "status": "demo",
+        "checkedOn": null,
+        "note": "Fictional record for demonstration. Not a real opportunity."
+      }
+    },
+    {
+      "id": "demo-data-internship",
+      "title": "Demo: Data Analysis Internship",
+      "organisation": "Demo Organisation (fictional)",
+      "type": "internship",
+      "summary": "A fictional internship that requires basic data analysis. Open to computing, science and business students, and graduates.",
+      "fields": {
+        "allowed": [
+          "cs-it",
+          "sciences",
+          "business"
+        ],
+        "basis": "curated"
+      },
+      "levels": {
+        "allowed": [
+          "300",
+          "400",
+          "graduate"
+        ],
+        "basis": "curated"
+      },
+      "requiredSkills": [
+        "data"
+      ],
+      "relevantSkills": [
+        "data",
+        "programming",
+        "research"
+      ],
+      "unknowns": [
+        "This record is fictional, so there are no real eligibility rules."
+      ],
+      "deadline": {
+        "date": null,
+        "status": "unknown",
+        "note": "Demo record. There is no real deadline."
+      },
+      "sourceUrl": null,
+      "applyUrl": null,
+      "verification": {
+        "status": "demo",
+        "checkedOn": null,
+        "note": "Fictional record for demonstration. Not a real opportunity."
+      }
+    }
+  ]
+}
