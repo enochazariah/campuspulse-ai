@@ -29,3 +29,9 @@ dist-ssr
 !.env.example
 *.pem
 *.key
+
+# Android / Gradle generated files
+android/.gradle/
+android/**/build/
+android/local.properties
+android/.idea/
