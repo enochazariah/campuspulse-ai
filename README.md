@@ -19,6 +19,35 @@ npm run preview    # serve the production build locally
 
 ## Deploy
 
+## Android app
+
+CampusPulse AI can also run as an Android app using Capacitor.
+
+### Requirements
+
+- Node.js and npm
+- Java and Android SDK configured for Android builds
+
+### Build the Android app
+
+```bash
+npm install
+npm run build
+npx cap sync android
+```
+
+On Windows, build the debug APK with:
+
+```powershell
+.\android\gradlew.bat -p android assembleDebug
+```
+
+The APK is generated at:
+
+`android/app/build/outputs/apk/debug/app-debug.apk`
+
+This debug APK is intended for testing and direct installation. A signed release build is required for production distribution. The web app remains available and can still be deployed independently using the steps above.
+
 `npm run build`, then upload `dist/` to Netlify, Vercel or any static host (the build uses relative paths, so it also works from a sub-path).
 
 ## How matching works
