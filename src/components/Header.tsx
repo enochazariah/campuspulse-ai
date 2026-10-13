@@ -24,7 +24,19 @@ export function Footer() {
           periodically. It is not a complete list. It does not confirm that you are eligible and it does not apply for you. Your answers stay in your browser
           and are never sent anywhere.
         </p>
-        <p>Always confirm deadlines, eligibility and application steps on the official provider's website before you apply.</p>
+        <p>
+          Always confirm deadlines, eligibility and application steps on the official provider's website before you apply.
+        </p>
+        <p>
+          Built by Enoch Azariah ·{' '}
+          <a
+            href="https://mylandingpage-alpha.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Visit my portfolio
+          </a>
+        </p>
       </div>
     </footer>
   )
