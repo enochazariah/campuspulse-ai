@@ -25,6 +25,10 @@ npm run preview    # serve the production build locally
 
 CampusPulse AI can also run as an Android app using Capacitor.
 
+Live site: https://campuspulse-ai-smoky.vercel.app/
+
+Test APK download: https://campuspulse-ai-smoky.vercel.app/downloads/campuspulse-ai.apk
+
 ### Requirements
 
 - Node.js and npm
